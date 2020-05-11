@@ -3,10 +3,10 @@
 $myemail = "sabin.bhuju14@gmail.com";
 
 /* Check all form inputs using check_input function */
-$name = check_input($_POST['name'], "Enter your name");
-$subject = check_input($_POST['subject'], "Enter a subject");
-$email = check_input($_POST['email']);
-$message = check_input($_POST['message'], "Write your message");
+$name = check_input($_POST['Name'], "Enter your name");
+$subject = check_input($_POST['Subject'], "Enter a subject");
+$email = check_input($_POST['Email']);
+$message = check_input($_POST['Message'], "Write your message");
 
 /* If e-mail is not valid show error message */
 if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
