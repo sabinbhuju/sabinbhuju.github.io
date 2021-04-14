@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sabinbhuju/sabinbhuju.github.io/issues"
   },
-  "homepage": "https://github.com/sabinbhuju/sabinbhuju.github.io#readme"
+  "homepage": "https://github.com/sabinbhuju/sabinbhuju.github.io#readme",
+  "dependencies": {
+    "lightbox2": "^2.11.3"
+  }
 }
